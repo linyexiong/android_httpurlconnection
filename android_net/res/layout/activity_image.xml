@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="网络图片路径"
+	    android:padding="5dp"/>
+	
+	<EditText 
+	    android:id="@+id/imagePath_et"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="http://192.168.91.1:8083/music/image/mm4.jpg"/>
+	
+	<Button
+	    android:id="@+id/show_netimage" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="查看网络图片"/>
+	
+	<ImageView
+	    android:id="@+id/imageView" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/ic_launcher"/>
+</LinearLayout>

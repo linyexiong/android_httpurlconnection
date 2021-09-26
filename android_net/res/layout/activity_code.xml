@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="网络图片路径：" />
+
+    <EditText
+        android:id="@+id/codePath_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://192.168.91.1:8083/music/index.jsp" />
+
+    <Button
+        android:id="@+id/show_netcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看网络源码" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="哈哈..." />
+    </ScrollView>
+
+</LinearLayout>
